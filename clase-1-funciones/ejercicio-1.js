@@ -61,3 +61,18 @@ const personas = [
       }
     }
   ];
+  // -------------Victor's Contibution--------------
+  let languageToSearch='EN'
+  // ---------------find method---------------
+  // let lang = (langage)=>langage==languageToSearch
+  // let fn2= person=>person.idiomas.find(lang)
+  // ------------------includes method-----------
+  let fn= person=>person.idiomas.includes(languageToSearch)
+  let resultLanguage = personas.filter(fn)
+  
+  for (i=0 ; i<resultLanguage.length ; i++){
+    console.log(`${resultLanguage[i].nombre} habla ingles y su edad es ${resultLanguage[i].edad}`)
+  }
+  // -----------------end Victor's contribution-------------
+
+  
