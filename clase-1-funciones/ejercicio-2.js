@@ -13,3 +13,10 @@ let strNum= ()=> { return str1.substring(0,num)}
 console.log(strNum())*/
 
 //-------------victor third------------
+/*let strDivider = (str)=>{return str.split(' ')}
+console.log(strDivider(str1));*/
+
+//-------------victor fourth---------
+const repeatTimes= 3
+let strRepeting =(str)=>{return str.repeat(repeatTimes)}
+console.log(strRepeting(str1))
